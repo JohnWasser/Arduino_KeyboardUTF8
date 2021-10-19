@@ -1,11 +1,12 @@
 #include <KeyboardUTF8.h>
-#include <src/Keyboard_GR.h>
+#include <languages/Keyboard_GR.h>
 
 // Keyboard_GR Keyboard_german;
 
 void setup()
 {
-  Keyboard_GR.println("This is a test.");
+  keyboard_ge.begin();
+  Keyboard_GR.println("This is a test: ABCDEFGHIJKLMNOPQRSTUVWXYZ");
 }
 
 void loop() {}
